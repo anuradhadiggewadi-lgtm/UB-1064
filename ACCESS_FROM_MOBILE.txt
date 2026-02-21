@@ -1,0 +1,55 @@
+═══════════════════════════════════════════════════════════════════
+   HOW TO ACCESS ZENSTRESSY FROM MOBILE & OTHER DEVICES
+═══════════════════════════════════════════════════════════════════
+
+📱 STEP 1: START THE SERVER
+───────────────────────────────────────────────────────────────────
+
+Run: python app.py
+
+You'll see this output:
+───────────────────────────────────────────────────────────────────
+======================================================================
+✅ ZenStressy Server Starting!
+======================================================================
+📱 Access on this device: http://localhost:5000
+💻 Access on same network: http://YOUR_IP_ADDRESS:5000
+======================================================================
+───────────────────────────────────────────────────────────────────
+
+📱 STEP 2: ALLOW FIREWALL (Windows only)
+───────────────────────────────────────────────────────────────────
+
+Right-click "allow_firewall.bat" → Run as Administrator
+
+OR manually allow Python through Windows Firewall settings.
+
+📱 STEP 3: CONNECT YOUR DEVICE
+───────────────────────────────────────────────────────────────────
+
+1. Make sure BOTH devices are on the SAME Wi-Fi network
+2. On your phone/laptop, open browser
+3. Type: http://YOUR_IP_ADDRESS:5000
+   (Use the IP shown in step 1)
+
+Example: http://192.168.1.100:5000
+
+📱 THAT'S IT! ✅
+───────────────────────────────────────────────────────────────────
+
+You can now access ZenStressy from any device on your network!
+
+═══════════════════════════════════════════════════════════════════
+   TROUBLESHOOTING
+═══════════════════════════════════════════════════════════════════
+
+❌ Can't connect?
+  → Check both devices on same Wi-Fi
+  → Make sure firewall is configured
+  → Restart the server
+
+❌ Still not working?
+  → See NETWORK_ACCESS.md for detailed help
+
+═══════════════════════════════════════════════════════════════════
+
